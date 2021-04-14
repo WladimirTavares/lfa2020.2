@@ -1,0 +1,2 @@
+pandoc -s readme.md -o readme.html
+tk build t.vpl testes.tio
