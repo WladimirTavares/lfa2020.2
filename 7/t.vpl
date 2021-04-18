@@ -1,0 +1,29 @@
+case=
+input=0101
+output="False
+"
+grade reduction=100%
+
+case=
+input=101
+output="True
+"
+grade reduction=100%
+
+case=
+input=1000110101101
+output="True
+"
+grade reduction=100%
+
+case=
+input=1101110001011001011
+output="True
+"
+grade reduction=100%
+
+case=
+input=1000110101011
+output="False
+"
+grade reduction=100%

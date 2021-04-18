@@ -31,6 +31,17 @@
 * [Strings binárias com 011 como substring](2/Readme.md)
 * [Tabela de Transição](3/Readme.md)
 * [Função delta](4/Readme.md) 
+* [Linguagem do Autômato](5/Readme.md)
+* [Linguagem do Autômato](6/Readme.md)
+* [Strings binárias que começam com 1 e que, quando interpretadas como números são múltiplos de 5](7/Readme.md)
+* [Strings binárias que contém a substring 00](8/Readme.md)
+* [Strings binárias que terminam em 00 ou 11](9/Readme.md)
+* [Strings binárias que começam em 01 ou terminam em 01](10/Readme.md)
+* [Strings binárias que contêm  pelo menos dois 0's ou exatamente dois 1's.](11/Readme.md)
+* [Strings binárias que tenha o dígito 1 nas últimas quatro posições.](12/Readme.md)
+* [Todas strings binárias exceto 01, 101, 0100]
+(13/Readme.md)
+* 
 
 ## Provas
 

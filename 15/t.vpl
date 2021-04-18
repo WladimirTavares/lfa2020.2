@@ -1,0 +1,233 @@
+case=
+input=a
+output="False
+"
+grade reduction=100%
+
+case=
+input=ab
+output="True
+"
+grade reduction=100%
+
+case=
+input=aa
+output="False
+"
+grade reduction=100%
+
+case=
+input=abb
+output="False
+"
+grade reduction=100%
+
+case=
+input=aba
+output="False
+"
+grade reduction=100%
+
+case=
+input=aab
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbb
+output="False
+"
+grade reduction=100%
+
+case=
+input=abba
+output="True
+"
+grade reduction=100%
+
+case=
+input=abab
+output="True
+"
+grade reduction=100%
+
+case=
+input=abaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=aabb
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaba
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaab
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbbb
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbba
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbab
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=ababb
+output="False
+"
+grade reduction=100%
+
+case=
+input=ababa
+output="False
+"
+grade reduction=100%
+
+case=
+input=abaab
+output="False
+"
+grade reduction=100%
+
+case=
+input=abaaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=aabbb
+output="False
+"
+grade reduction=100%
+
+case=
+input=aabba
+output="False
+"
+grade reduction=100%
+
+case=
+input=aabab
+output="False
+"
+grade reduction=100%
+
+case=
+input=aabaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaabb
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaaba
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaaab
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaaaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbbbb
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbbba
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbbab
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbbaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbabb
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbaba
+output="True
+"
+grade reduction=100%
+
+case=
+input=abbaab
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbaaa
+output="False
+"
+grade reduction=100%

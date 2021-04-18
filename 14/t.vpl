@@ -1,0 +1,191 @@
+case=
+input=abbbbb
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbbba
+output="True
+"
+grade reduction=100%
+
+case=
+input=abbbab
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbbaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbabb
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbaba
+output="False
+"
+grade reduction=100%
+
+case=
+input=abbaab
+output="True
+"
+grade reduction=100%
+
+case=
+input=abbaaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=ababbb
+output="False
+"
+grade reduction=100%
+
+case=
+input=ababba
+output="False
+"
+grade reduction=100%
+
+case=
+input=ababab
+output="False
+"
+grade reduction=100%
+
+case=
+input=ababaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=abaabb
+output="False
+"
+grade reduction=100%
+
+case=
+input=abaaba
+output="False
+"
+grade reduction=100%
+
+case=
+input=abaaab
+output="False
+"
+grade reduction=100%
+
+case=
+input=abaaaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=aabbbb
+output="False
+"
+grade reduction=100%
+
+case=
+input=aabbba
+output="False
+"
+grade reduction=100%
+
+case=
+input=aabbab
+output="False
+"
+grade reduction=100%
+
+case=
+input=aabbaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=aababb
+output="False
+"
+grade reduction=100%
+
+case=
+input=aababa
+output="False
+"
+grade reduction=100%
+
+case=
+input=aabaab
+output="False
+"
+grade reduction=100%
+
+case=
+input=aabaaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaabbb
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaabba
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaabab
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaabaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaaabb
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaaaba
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaaaab
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaaaaa
+output="False
+"
+grade reduction=100%

@@ -1,0 +1,233 @@
+case=
+input=a
+output="False
+"
+grade reduction=100%
+
+case=
+input=b
+output="False
+"
+grade reduction=100%
+
+case=
+input=ac
+output="False
+"
+grade reduction=100%
+
+case=
+input=aa
+output="False
+"
+grade reduction=100%
+
+case=
+input=ab
+output="True
+"
+grade reduction=100%
+
+case=
+input=bc
+output="False
+"
+grade reduction=100%
+
+case=
+input=ba
+output="True
+"
+grade reduction=100%
+
+case=
+input=bb
+output="False
+"
+grade reduction=100%
+
+case=
+input=acc
+output="False
+"
+grade reduction=100%
+
+case=
+input=aca
+output="False
+"
+grade reduction=100%
+
+case=
+input=acb
+output="True
+"
+grade reduction=100%
+
+case=
+input=aac
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=aab
+output="True
+"
+grade reduction=100%
+
+case=
+input=abc
+output="True
+"
+grade reduction=100%
+
+case=
+input=aba
+output="True
+"
+grade reduction=100%
+
+case=
+input=abb
+output="True
+"
+grade reduction=100%
+
+case=
+input=bcc
+output="False
+"
+grade reduction=100%
+
+case=
+input=bca
+output="True
+"
+grade reduction=100%
+
+case=
+input=bcb
+output="False
+"
+grade reduction=100%
+
+case=
+input=bac
+output="True
+"
+grade reduction=100%
+
+case=
+input=baa
+output="True
+"
+grade reduction=100%
+
+case=
+input=bab
+output="True
+"
+grade reduction=100%
+
+case=
+input=bbc
+output="False
+"
+grade reduction=100%
+
+case=
+input=bba
+output="True
+"
+grade reduction=100%
+
+case=
+input=bbb
+output="False
+"
+grade reduction=100%
+
+case=
+input=accc
+output="False
+"
+grade reduction=100%
+
+case=
+input=acca
+output="False
+"
+grade reduction=100%
+
+case=
+input=accb
+output="True
+"
+grade reduction=100%
+
+case=
+input=acac
+output="False
+"
+grade reduction=100%
+
+case=
+input=acaa
+output="False
+"
+grade reduction=100%
+
+case=
+input=acab
+output="True
+"
+grade reduction=100%
+
+case=
+input=acbc
+output="True
+"
+grade reduction=100%
+
+case=
+input=acba
+output="True
+"
+grade reduction=100%
+
+case=
+input=acbb
+output="True
+"
+grade reduction=100%
+
+case=
+input=aacc
+output="False
+"
+grade reduction=100%
+
+case=
+input=aaca
+output="False
+"
+grade reduction=100%
+
+case=
+input=aacb
+output="True
+"
+grade reduction=100%
+
+case=
+input=aaac
+output="False
+"
+grade reduction=100%

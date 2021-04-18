@@ -1,0 +1,233 @@
+case=
+input=1
+output="True
+"
+grade reduction=100%
+
+case=
+input=10
+output="True
+"
+grade reduction=100%
+
+case=
+input=11
+output="True
+"
+grade reduction=100%
+
+case=
+input=100
+output="True
+"
+grade reduction=100%
+
+case=
+input=101
+output="True
+"
+grade reduction=100%
+
+case=
+input=110
+output="True
+"
+grade reduction=100%
+
+case=
+input=111
+output="False
+"
+grade reduction=100%
+
+case=
+input=1000
+output="True
+"
+grade reduction=100%
+
+case=
+input=1001
+output="True
+"
+grade reduction=100%
+
+case=
+input=1010
+output="True
+"
+grade reduction=100%
+
+case=
+input=1011
+output="True
+"
+grade reduction=100%
+
+case=
+input=1100
+output="True
+"
+grade reduction=100%
+
+case=
+input=1101
+output="True
+"
+grade reduction=100%
+
+case=
+input=1110
+output="False
+"
+grade reduction=100%
+
+case=
+input=1111
+output="False
+"
+grade reduction=100%
+
+case=
+input=10000
+output="True
+"
+grade reduction=100%
+
+case=
+input=10001
+output="True
+"
+grade reduction=100%
+
+case=
+input=10010
+output="True
+"
+grade reduction=100%
+
+case=
+input=10011
+output="True
+"
+grade reduction=100%
+
+case=
+input=10100
+output="True
+"
+grade reduction=100%
+
+case=
+input=10101
+output="True
+"
+grade reduction=100%
+
+case=
+input=10110
+output="True
+"
+grade reduction=100%
+
+case=
+input=10111
+output="False
+"
+grade reduction=100%
+
+case=
+input=11000
+output="True
+"
+grade reduction=100%
+
+case=
+input=11001
+output="True
+"
+grade reduction=100%
+
+case=
+input=11010
+output="True
+"
+grade reduction=100%
+
+case=
+input=11011
+output="False
+"
+grade reduction=100%
+
+case=
+input=11100
+output="False
+"
+grade reduction=100%
+
+case=
+input=11101
+output="False
+"
+grade reduction=100%
+
+case=
+input=11110
+output="False
+"
+grade reduction=100%
+
+case=
+input=11111
+output="False
+"
+grade reduction=100%
+
+case=
+input=100000
+output="True
+"
+grade reduction=100%
+
+case=
+input=100001
+output="True
+"
+grade reduction=100%
+
+case=
+input=100010
+output="True
+"
+grade reduction=100%
+
+case=
+input=100011
+output="True
+"
+grade reduction=100%
+
+case=
+input=100100
+output="True
+"
+grade reduction=100%
+
+case=
+input=100101
+output="True
+"
+grade reduction=100%
+
+case=
+input=100110
+output="True
+"
+grade reduction=100%
+
+case=
+input=100111
+output="False
+"
+grade reduction=100%

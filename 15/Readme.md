@@ -1,15 +1,23 @@
-Projete um autômato finito determinístico que aceita a linguagem *L* de strings formada por 0's e 1's que tem 011 como substring.
+# Linguagem definida pela expressão regular <img src="https://latex.codecogs.com/svg.latex?(ab)^*(ba)^*">
+ 
+Projete um autômato finito determinístico (DFA) que aceita a linguagem definida pela seguinte expressão regular 
+
+<center>
+<img src="https://latex.codecogs.com/svg.latex?(ab)^*(ba)^*">
+</center>
 
 
-Por exemplo, 0111 está em *L* e 0010 não está em *L*.
-
+Utilize o código Python abaixo
 ```Python
 # Coloque aqui as transições do seu autômato
-edges = {       
+edges = {
+   (0,'0') : 1,            
 }
 
 #Coloque aqui os estados finais do seu autômato
 accepting = []
+
+initial   = 0
 
 # Função que roda o autômato
 def dfa(string, current, edges, accepting):
@@ -24,6 +32,7 @@ def dfa(string, current, edges, accepting):
         return False
 
 
-string = raw_input()
-print dfa(string, 1, edges, accepting)
+string = input()
+print(dfa(string, initial, edges, accepting))
+
 ```
