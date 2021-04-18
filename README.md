@@ -29,5 +29,10 @@
 
 * [Strings terminadas em 011](1/Readme.md) 
 * [Strings binárias com 011 como substring](2/Readme.md)
+* [Tabela de Transição](3/Readme.md)
+* [Função delta](4/Readme.md) 
 
+## Provas
 
+* [Primeira Avaliação](provas/1AP/Atividade.pdf)
+* [Segunda Avaliação](provas/2AP/Atividade.pdf)
