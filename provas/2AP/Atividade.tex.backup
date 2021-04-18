@@ -1,0 +1,106 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+
+\usepackage[
+top    = 1.00cm,
+bottom = 1.50cm,
+left   = 3.00cm,
+right  = 2.50cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,positioning}
+
+
+\title{ \textbf{Linguagens Formais e Autômatos} \\ Gramática Livre de Contexto }
+\date{}
+\begin{document}
+
+\maketitle
+
+%\vspace{-1cm} \centering
+%\noindent {\textbf{Data de entrega: }
+%\vspace{0.5cm}
+
+
+
+\begin{enumerate}
+
+\item Considere a seguinte linguagem:
+
+\begin{equation}
+L = \{a^ib^jc^k | i = j \mbox{ or } i = k\}  
+\end{equation}
+
+\begin{enumerate}
+ \item Projete uma gramática livre de contexto para $L$.
+ \item Projete um autômato de pilha para $L$.
+ \item Escolha uma string $w \in L$ com $|w| \geq 6$
+ \item Mostre uma derivação mais à esquerda para $w$.
+ \item Construa uma árvore sintática para $w$.
+ \item Encontre uma string $w \in L$ com $|w| \geq 6$ com duas árvores sintáticas diferentes.
+ \item Escolha uma string $w \in L$ com $|w| \geq 8$. Decomponha $w$ em $u,v,x,y,z$ tal que $|vxy| \leq 8$ e $|vy| > 0$ e $uv^ixy^iz \in L$ para todo $i \geq 0$
+\end{enumerate}
+
+
+\item Considere a seguinte gramática:
+
+\begin{center}
+\begin{tabular}{lll}
+S & $\to$ & $aSb$\\
+S & $\to$ & $Sb$\\
+S & $\to$ & $\varepsilon$\\
+\end{tabular}
+\end{center}
+
+\begin{enumerate}
+ \item Liste 4 palavras geradas por essa gramática. 
+ \item Dê uma descrição informal da linguagem gerada por essa gramática.
+ \item Mostre que essa gramática é ambígua apresentando uma string que possui duas árvores sintáticas diferentes. Desenhe as 
+ duas árvores sintáticas.
+ \item Dê uma gramática não ambígua que aceita a mesma linguagem da gramática acima. Explique sua resposta.
+ \item Escolha uma string $w \in L$ com $|w| \geq 8$. Decomponha $w$ em $u,v,x,y,z$ tal que $|vxy| \leq 8$ e $|vy| > 0$ e $uv^ixy^iz \in L$ para todo $i \geq 0$
+\end{enumerate}
+
+
+\item Considere a seguinte linguagem:
+
+\begin{equation}
+L = \{a^nb^m | n \leq m \leq 2n\}  
+\end{equation}
+
+
+\begin{enumerate}
+\item Projete uma gramática livre de contexto para $L$.
+\item Encontre uma string $w \in L$ com $|w| \geq 5$ com duas árvores sintáticas diferentes.
+\item Dê uma gramática não ambígua que aceita a mesma linguagem da gramática acima. Explique sua resposta.
+\item Elimine todas as $\varepsilon$-regras da gramática do item (a) (Transformação DEL).
+\item Elimine os símbolos terminais das regras com o tamanho do lado direito maior que 1 (Transformação TERM)
+\item Reduza para regras com o tamanho do lado direito menor ou igual a 2 (Transformação BIN).
+\item Execute o algoritmo CYK com a string do item (b)
+\end{enumerate}
+
+
+\item (1.5) O \textbf{lema do bombeamento para linguagens livre de contexto} pode ser entendido como um jogo. 
+Suponha que seu oponente acredita que $L$ não é livre de contexto e você acredita que a linguagem é livre de contexto. Você escolhe um valor de $p$. 
+Depois, seu oponente escolhe uma string $w$ tal que $|w| \geq p$. Você escolhe $u,v,x,y,z$ tal que $w = uvxyz$ satisfazendo 
+$|vxy| \leq p$, $|vy| \geq 1$. Se o seu oponente escolhe um valor de $i$ tal que $uv^ixy^iz \not\in L$, ele ganha 
+Caso contrário, você ganha. 
+
+Seu oponente escolheu a linguagem  $L = \{ww | w \in \{0,1\}^*\}$, você escolhe $p = 3$, seu oponente escolhe $w = baabaa$.
+
+\begin{enumerate}
+ \item (0.5) Qual é o valor de $u,v,x,y$ e $z$ que você deve escolher para ganhar o jogo?
+ \item (0.5) Se você tivesse escolhido $p=2$ e seu oponente escolhido o mesmo $w$, você poderia ganhar o jogo?
+ \item (0.5) Para $p=3$, qual é a string que seu oponente deve escolher para vencer o jogo?
+\end{enumerate}
+
+
+
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,127 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+
+\usepackage[
+top    = 1.00cm,
+bottom = 1.50cm,
+left   = 3.00cm,
+right  = 2.50cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,positioning}
+
+
+\title{ \textbf{Linguagens Formais e Autômatos} \\ Revisão de Linguagens Regulares }
+\date{}
+\begin{document}
+
+\maketitle
+
+%\vspace{-1cm} \centering
+%\noindent {\textbf{Data de entrega: }
+%\vspace{0.5cm}
+
+
+
+\begin{enumerate}
+
+\item Projete um DFA sobre o alfabeto \{0,1\} que aceita a linguagem L definida como:
+
+\begin{equation}
+L = \{w | w \mbox{ w é qualquer palavra, exceto 01,001,0100 } \}  \nonumber
+\end{equation}
+
+Por exemplo, $\varepsilon$, 10, 010 estão em $L$.
+
+
+\item Considere o autômato A descrito pela seguinte tabela de transição:
+
+\begin{center}
+\begin{tabular}{r||l|l}
+          & 0 & 1  \\ \hline \hline
+$\to$ A   & A & B  \\
+$^{*}B$      & B & C  \\
+$C$       & C & C  \\
+\end{tabular}
+\end{center}
+
+O autômato $A$ aceita todas as strings no alfabeto \{0,1\} que possui apenas um único 1. Prove por indução no comprimento da string $w$, se $w$ é aceita pelo autômato A
+então w possui apenas um único 1. Dica: Quando vc estiver definindo a sua hipótese de Indução é inteligente fazer uma proposição sobre as entradas que levam para cada estado,
+não apenas as entradas que levam para o estado final.
+
+
+\item Determine uma expressão regular sobre o alfabeto \{a,b\} que caracteriza a linguagem 
+
+\begin{equation}
+L = \{a^nb^mc^k | \mbox{$n,m,k$ são ímpares ou $n,m,k$ são pares} \}
+\end{equation}
+
+
+\item Usando o lema do bombeamento, prove que a linguagem $L = \{a^ib^jc^k | k = i + j \}$ não é regular. 
+
+
+
+\item Obtenha uma expressão regular para o seguinte autômato finito determiní­stico:
+
+
+     \begin{tikzpicture}[initial text={},->,>=stealth',shorten >=1pt,auto,node distance=2.8cm,semithick]
+            \tikzstyle{every state}=[fill=white,draw=black,text=black]
+                \node[state,initial,accepting]   (0)                {A};
+                \node[state]			 (1) [right of = 0] {B};
+                \node[state]			 (2) [below of = 0] {C};
+                \node[state, accepting]			 (3) [below of = 1] {D};
+                
+                \path[->]
+                (0) edge [bend right] node {0} (1)
+                    edge [bend right] node {1} (2)
+                    
+                (1) edge [loop right] node {0} ()
+                    edge [bend right] node {1} (3)
+                    
+                (2) edge [bend right] node {0} (0)
+                    edge [bend right] node {1} (3)
+                    
+                (3) edge [bend right] node {0} (1)
+                    edge [bend right] node {1} (2);
+                \end{tikzpicture}
+
+
+
+\item (3.0) Considere o seguinte DFA:
+
+\begin{center}
+\begin{tabular}{r||l|l}
+          & 0 & 1  \\ \hline \hline
+$\to A$   & B & A \\
+$B$       & A & C  \\
+$C$      & D & B  \\
+$*D$      & D & A  \\
+$E$      & D & F  \\
+$F$      & G & E  \\
+$G$      & F & G  \\
+$H$      & G & D  \\
+\end{tabular}
+\end{center}
+
+
+
+\begin{enumerate}
+\item Preencha a tabela de distinção dos estados para esse autômato sem o estado inalcançavel.
+\item Encontre o autômato com o número mínimo de estados.
+\end{enumerate}
+
+
+
+
+
+
+
+
+\end{enumerate}
+
+\end{document}
