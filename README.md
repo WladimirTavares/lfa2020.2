@@ -52,3 +52,15 @@
 
 * [Primeira Avaliação](provas/1AP/Atividade.pdf)
 * [Segunda Avaliação](provas/2AP/Atividade.pdf)
+
+
+## Códigos
+* [Autômato determinístico](codigos/dfa.py)
+* [Autômato não-determinístico](codigos/nfa.py)
+* [Autômato não-determinístico com transicao epsilon](codigos/epsilon_nfa.py)
+
+* [Linguagem aceita por CGF](codigos/cfg1.py)
+* [Derivação](codigos/cfg2.py)
+* [Autômato de Pilha para a^b^n](codigos/pda.py)
+* [Autômato de Pilha para L = { ww^R | for all w \in (a+b)*}](codigos/pda2.py)
+* [Autômato de Pilha para L = { w | n_a(w) = n_b(w) }](codigos/pda3.py)
