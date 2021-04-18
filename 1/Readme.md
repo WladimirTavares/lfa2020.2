@@ -1,8 +1,8 @@
 Projete um autômato finito determinístico que aceita a linguagem *L* de strings formada por 0's e 1's definida como:
 
-<img src="https://latex.codecogs.com/svg.latex?L = \{ w | w \mbox{ termina em } 011 \}">
+$L$ = \{ $w$ | $w$  termina em 011}
 
-Por exemplo, 1011 está em *L* e 0110 não está em *L*.
+Por exemplo, 1011 está em *L* e 0110 não está em $L$.
 
 ```Python
 # Coloque aqui as transições do seu autômato
