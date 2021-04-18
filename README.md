@@ -44,7 +44,7 @@
 * [Linguagem definida pela expressão regular (ab)* (ba)*](15/Readme.md)
 * [Expressão regular para o conjunto de strings sobre o alfabeto \{a,b,c\} que contém pelo menos um a e pelo menos um b.](16/Readme.md)
 * [Expressão regular para o conjunto de strings sobre o alfabeto \{0,1\} cujo quarto símbolo a partir da extrema direita é 1](17/Readme.md)
-* [Expressão regular para o conjunto de strings sobre o alfabeto \{0,1\} com no máximo um par de 1's consecutivos](18s/Readme.md)
+* [Expressão regular para o conjunto de strings sobre o alfabeto \{0,1\} com no máximo um par de 1's consecutivos](18/Readme.md)
 * [Derivação mais à direita](derivacao/Readme.md) 
 * [Gramática Ambígua](derivacao_ambigua/Readme.md)
 * [Árvore sintática](arvore_sintatica/Readme.md)
