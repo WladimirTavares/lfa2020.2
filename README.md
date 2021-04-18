@@ -39,9 +39,12 @@
 * [Strings binárias que começam em 01 ou terminam em 01](10/Readme.md)
 * [Strings binárias que contêm  pelo menos dois 0's ou exatamente dois 1's.](11/Readme.md)
 * [Strings binárias que tenha o dígito 1 nas últimas quatro posições.](12/Readme.md)
-* [Todas strings binárias exceto 01, 101, 0100]
-(13/Readme.md)
-* 
+* [Todas strings binárias exceto 01, 101, 0100](13/Readme.md)
+* [Linguagem definida pela expressão regular ab* ba(ab)*](14/Readme.md)
+* [Linguagem definida pela expressão regular (ab)* (ba)*](15/Readme.md)
+* [Expressão regular para o conjunto de strings sobre o alfabeto \{a,b,c\} que contém pelo menos um a e pelo menos um b.](16/Readme.md)
+* [Expressão regular para o conjunto de strings sobre o alfabeto \{0,1\} cujo quarto símbolo a partir da extrema direita é 1](17/Readme.md)
+* [Expressão regular para o conjunto de strings sobre o alfabeto \{0,1\} com no máximo um par de 1's consecutivos](18s/Readme.md)
 
 ## Provas
 
